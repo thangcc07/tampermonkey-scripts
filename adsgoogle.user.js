@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TỔNG HỢP
 // @namespace    http://tampermonkey.net/
-// @version      1.3.1
+// @version      1.3.2
 // @description  Tự động tìm và cài plugin Conversios trên WordPress, tiếp tục sau khi reload
 // @include      *
 // @grant        GM_setValue
@@ -11,7 +11,7 @@
 // ==/UserScript==
 (function () {
     "use strict";
-    alert("abc");
+
     const runmailthuong = GM_getValue("runmailthuong") || false;
     const runmailedu = GM_getValue("runmailedu") || false;
     const runxmdt = GM_getValue("runxmdt") || false;
