@@ -6,6 +6,7 @@
 // @include      *
 // @grant        GM_setValue
 // @grant        GM_getValue
+// @grant        GM_addValueChangeListener
 // @grant        GM_openInTab
 // @updateURL    https://raw.githubusercontent.com/thangcc07/tampermonkey-scripts/main/adsgoogle.user.js
 // @downloadURL  https://raw.githubusercontent.com/thangcc07/tampermonkey-scripts/main/adsgoogle.user.js
